@@ -4,8 +4,8 @@
   "description": "Tech notes for 88NEXTA - MERN Stack Project",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
-    "dev": "nodemon server"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "author": "Sandaru Divyantha",
   "license": "ISC",
