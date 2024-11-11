@@ -3,15 +3,14 @@
 ## Frontend Code: Find the frontend repository and documentation for details on connecting it with this backend.
 
 ## Application Access
-You can check out the application using the following links:
-
+# You can check out the application using the following links:
 Backend: https://technotesfor88nextabackend-production.up.railway.app
 Frontend: https://technotesfor88nextafrontend-production.up.railway.app
 
-Frontend Login Credentials for testing purposes, please use the following login credentials:
+# Frontend Login Credentials for testing purposes, please use the following login credentials:
 Username: EthanD
 Password: asdASD
-Note: Unfortunately, I cannot provide Admin or Manager login credentials due to security reasons. Thank you for understanding.
+# Note: Unfortunately, I cannot provide Admin or Manager login credentials due to security reasons. Thank you for understanding.
 
 ### User Stories for techNotes
 1. [x] Replace current sticky note system
@@ -34,3 +33,12 @@ Note: Unfortunately, I cannot provide Admin or Manager login credentials due to 
 18. [x] Only Managers and Admins can access User Settings
 19. [x] Only Managers and Admins can create new users
 20. [x] Desktop mode is most important but should be available in mobile
+
+![1](https://github.com/user-attachments/assets/bc82ad89-dd79-41de-a1fc-e7acc749e299)
+![2](https://github.com/user-attachments/assets/4d39a10d-37e7-4d27-82d7-dd5b9e79c009)
+![3](https://github.com/user-attachments/assets/841116ef-0c21-4027-ae4b-367eff26bcfd)
+![4](https://github.com/user-attachments/assets/9fe61ac9-fca9-487b-a1c8-2f92ff0f3e92)
+![5](https://github.com/user-attachments/assets/1bf82954-8868-4cdf-a8b5-713894eb9817)
+![6](https://github.com/user-attachments/assets/07decd88-2baf-4755-80a9-868453e5e759)
+![7](https://github.com/user-attachments/assets/cfcbc042-b4e8-44dd-ad07-ec376e82ece5)
+![8](https://github.com/user-attachments/assets/f2f1846d-cc53-4fb4-b4e2-85eb7bb569dd)
