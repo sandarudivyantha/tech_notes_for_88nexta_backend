@@ -1,16 +1,39 @@
-## For the backend of this MERN stack project, it covers setup with Node.js, Express, MongoDB, and Mongoose for data modeling. Key features include RESTful APIs, authentication using JWT, role-based access, error handling with express-async-errors and cookies. Security is enforced through bcrypt for password hashing and CORS middleware. Environment variables are managed with dotenv. The project follows clean code principles and supports asynchronous operations with Express middleware.
+# **TechNotes for 888Nexta**  
 
-## Frontend Code: Find the frontend repository and documentation for details on connecting it with this backend.
+A streamlined, secure note-taking application designed to replace traditional sticky notes, improve team collaboration, and enforce effective role-based access control.  
 
-## Application Access
-# You can check out the application using the following links:
-Backend: https://technotesfor88nextabackend-production.up.railway.app
-Frontend: https://technotesfor88nextafrontend-production.up.railway.app
+---
 
-# Frontend Login Credentials for testing purposes, please use the following login credentials:
-Username: EthanD
-Password: asdASD
-# Note: Unfortunately, I cannot provide Admin or Manager login credentials due to security reasons. Thank you for understanding.
+## **Backend Overview**  
+
+The backend of this MERN stack project is built with modern web technologies for seamless and secure operation.  
+
+### **Key Features**  
+- **RESTful API Design**: Modular and reusable architecture for enhanced maintainability.  
+- **Authentication & Authorization**: Secure login system using **JWT** with role-based access control.  
+- **Password Security**: Passwords are hashed using **bcrypt** for data protection.  
+- **Error Handling**: Managed through **express-async-errors** for cleaner and centralized error management.  
+- **Security Enhancements**:  
+  - **CORS middleware** for secure cross-origin requests.  
+  - Environment variables managed with **dotenv**.  
+- **Clean Code Principles**: Maintains modularity and readability, following best practices.  
+- **Asynchronous Operations**: Efficient handling through **Express middleware**.  
+
+---
+
+## **Application Access**  
+
+### **Live Links**  
+- **Backend**: [Access Backend](https://technotesfor88nextabackend-production.up.railway.app)  
+- **Frontend**: [Access Frontend](https://technotesfor88nextafrontend-production.up.railway.app)  
+
+### **Test Login Credentials**  
+- **Username**: `EthanD`  
+- **Password**: `asdASD`  
+
+> ⚠️ **Note**: Admin and Manager credentials are not shared for security reasons.  
+
+---
 
 ### User Stories for techNotes
 1. [x] Replace current sticky note system
@@ -33,6 +56,59 @@ Password: asdASD
 18. [x] Only Managers and Admins can access User Settings
 19. [x] Only Managers and Admins can create new users
 20. [x] Desktop mode is most important but should be available in mobile
+
+---
+
+## **Screenshots**  
+
+| **Login Page** | **Dashboard** | **Note Creation** |  
+|----------------|--------------|-------------------|  
+| ![Login](https://github.com/user-attachments/assets/bc82ad89-dd79-41de-a1fc-e7acc749e299) | ![Dashboard](https://github.com/user-attachments/assets/4d39a10d-37e7-4d27-82d7-dd5b9e79c009) | ![Note Creation](https://github.com/user-attachments/assets/841116ef-0c21-4027-ae4b-367eff26bcfd) |  
+
+| **Notes List** | **Role Management** | **User Settings** |  
+|----------------|---------------------|-------------------|  
+| ![Notes List](https://github.com/user-attachments/assets/9fe61ac9-fca9-487b-a1c8-2f92ff0f3e92) | ![Role Management](https://github.com/user-attachments/assets/07decd88-2baf-4755-80a9-868453e5e759) | ![User Settings](https://github.com/user-attachments/assets/cfcbc042-b4e8-44dd-ad07-ec376e82ece5) |  
+
+---
+
+## **Technologies Used**  
+
+### **Backend**  
+- **Node.js** & **Express.js**: Server setup and REST API development.  
+- **MongoDB** & **Mongoose**: NoSQL database and ORM for flexible data modeling.  
+- **JWT Authentication**: For secure user authentication and role management.  
+- **bcrypt**: Ensures robust password hashing.  
+- **CORS Middleware**: Enables secure communication between frontend and backend.  
+- **dotenv**: Manages sensitive environment variables.  
+
+### **Frontend**  
+- **React**: Component-based UI development.  
+- **Redux**: State management for application-wide data consistency.  
+- **CSS Modules**: Scoped and maintainable styling.  
+
+---
+
+## **How to Get Started**  
+
+1. **Clone the Repositories**:  
+   - Backend: [Backend Repository](https://github.com/sandarudivyantha/tech_notes_for_88nexta_backend)  
+   - Frontend: [Frontend Repository](https://github.com/sandarudivyantha/tech_notes_for_88nexta_frontend)  
+
+2. **Install Dependencies**:  
+   Run `npm install` in both backend and frontend directories.  
+
+3. **Setup Environment Variables**:  
+   Configure `.env` files in both repositories based on example files.  
+
+4. **Run the Application**:  
+   - For the backend: `npm run dev`  
+   - For the frontend: `npm start`  
+
+5. **Explore Features**:  
+   Use the provided login credentials to test the app's functionality.  
+
+---
+
 
 ![1](https://github.com/user-attachments/assets/bc82ad89-dd79-41de-a1fc-e7acc749e299)
 ![2](https://github.com/user-attachments/assets/4d39a10d-37e7-4d27-82d7-dd5b9e79c009)
